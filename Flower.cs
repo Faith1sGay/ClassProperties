@@ -1,21 +1,21 @@
 ﻿public class Flower
 {
-    readonly string name;
-    readonly string color;
-    private readonly int petals;
+    string _name;
+    string _color;
+    int _petals;
     public string Color
     {
-        get { return color; }
-        set { Color = color; }
+        get { return _color; }
+        set { _color = value; }
     }
     public int Petals
     {
-        get { return petals; }
-        set { Petals = value; }
+        get { return _petals; }
+        set { _petals = value; }
     }
     public string Name
     {
-        get { return name; }
-        set { Name = name; }
+        get { return _name; }
+        set { _name = value; }
     }
 }
